@@ -1,0 +1,63 @@
+.dashboard-wrapper{
+    overflow: hidden;
+    padding: 15px;
+    background-color: #f5f6f8;
+}
+.upgrade-button{
+    background-color: #4c89fa;
+    width: 215px;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 50px;
+    height: 60px;
+    font-size: 18px;
+}
+.dashboard-top-row{
+    margin-top: 20px;
+}
+.top-row-grid{
+    padding: 2px;
+    background-color: #fff;
+}
+.stat-item-icon{
+    border-top-right-radius: 45px;
+    border-bottom-right-radius: 45px;
+    background-color: #f5faff;
+    padding: 20px;
+    background-repeat: no-repeat;
+    height: 100px;
+    background-size: 50%;
+    background-position: center;
+
+}
+.stat-number{
+    font-size: 22px;
+    line-height: 27px;
+    font-weight: bold;
+    margin: 0;
+    color: #24282c;
+}
+.stat-item-text{
+    padding: 26px 0;
+}
+.stat-text{
+    color: #9d9fa3;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 0;
+}
+.graph-wrapper{
+    overflow: hidden;
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 20px;
+}
+.date-picker-wrapper{
+    padding: 10px;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    z-index: 99;
+
+}

@@ -1,0 +1,29 @@
+.sidenav{
+    border-right: 1px solid #f5f6f8;
+    width: 274px;
+    float: left;
+    clear: both;
+}
+.sidenav ul{
+    list-style: none;
+    padding: 0;
+}
+.sidenav li {
+    width: 272px;
+    background-color: #fff;
+    border-right: 2px solid transparent;
+    background-repeat: no-repeat;
+    padding: 20px 35px 20px 60px;
+    background-position-y: center;
+    background-position-x: 20px;
+    cursor: pointer;
+    color: #36445b;
+    transition: 0.5s ease all;
+}
+.sidenav li:hover {
+    background-color: #3476ee;
+    color: #fff;
+}
+/* .icon0:hover{
+    background-image: url('../images/icons/monitor-overlay.png') !important;
+} */

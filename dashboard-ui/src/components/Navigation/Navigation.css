@@ -1,0 +1,33 @@
+.navbar-brand{
+    font-family: 'Roboto';
+    text-decoration: none;
+    font-size: 28px;
+    line-height: 64px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.username{
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: bold;
+    color: #000;
+    margin: 0;
+}
+.user-email{
+    font-size: 12px;
+    line-height: 16px;
+    color: #9a9a9a;
+    margin: 0;
+}
+.navbar-user div{
+    display: inline-block;
+    margin: 0 5px;
+    overflow: hidden;
+}
+.dropdown-toggle::after{
+    display: initial;
+}
+.fixed-top{
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}

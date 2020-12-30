@@ -1,23 +1,24 @@
-import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Navigation from './components/Navigation/Navigation';
+import Sidenav from './components/Sidenav/Sidenav';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import 'react-date-range/dist/styles.css';
+import 'react-date-range/dist/theme/default.css';
+import Dashboard from './components/Dashboard/Dashboard';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Router>
+      <Navigation />
+      <div className="page-adjust">
+        <Sidenav />
+        <Switch>
+          <Route exact="/" component={Dashboard} />
+        </Switch>
+      </div>
+      </Router>
     </div>
   );
 }
