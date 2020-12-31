@@ -44,6 +44,7 @@ const navItems = [
                         return(
                             <li key={index} className={`icon${index} sidenav-item`} style={{backgroundImage: `url(${item.icon})`}}>
                                 {item.text}
+                                <span className="arrow" style={{backgroundImage:"url('../images/icons/arrow.png')"}}></span>
                             </li>
                         )
                     })
@@ -53,9 +54,12 @@ const navItems = [
                 <ul >
                     <li className="sidenav-item icon7" style={{backgroundImage: "url('../images/icons/diamond.png')"}}>
                         Menu Option 7
+                        <span className="arrow" style={{backgroundImage:"url('../images/icons/arrow.png')"}}></span>
                     </li>
                 </ul>
-
+                <div className="settings" style={{backgroundImage:"url('../images/icons/settings.png')"}}>
+                    <span>Settings</span>
+                </div>
             </div>
         </div>
     )

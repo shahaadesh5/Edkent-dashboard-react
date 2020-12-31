@@ -11,9 +11,9 @@
     padding: 0;
 }
 .sidenav li {
-    width: 272px;
+    width: 271px;
     background-color: #fff;
-    border-right: 2px solid transparent;
+    border-right: 3px solid transparent;
     background-repeat: no-repeat;
     padding: 20px 35px 20px 60px;
     background-position-y: center;
@@ -21,10 +21,19 @@
     cursor: pointer;
     color: #36445b;
     transition: 0.5s ease all;
+    position: relative;
 }
 .sidenav li:hover {
     background-color: #3476ee;
     color: #fff;
+}
+.sidenav li .arrow{
+    width: 19px;
+    height: 6px;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 .sidenav-bottom-elements{
     position: absolute;
@@ -50,4 +59,15 @@
 }
 .icon7:hover{
     background-image: url("https://raw.githubusercontent.com/shahaadesh5/Edkent-dashboard-react/main/dashboard-ui/public/images/icons/diamond-overlay.png") !important;
+}
+.sidenav-bottom-elements .settings{
+    background-color: #e6f2ff;
+    border-right: 3px solid #2569e6;
+    background-repeat: no-repeat;
+    padding: 40px 35px 40px 60px;
+    background-position-y: center;
+    background-position-x: 20px;
+    cursor: pointer;
+    color: #36445b;
+
 }

@@ -1,0 +1,24 @@
+{
+  "name": "Edkent-dashboard-react",
+  "version": "1.0.0",
+  "description": "React UI for Edkent Media assesment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shahaadesh5/Edkent-dashboard-react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shahaadesh5/Edkent-dashboard-react/issues"
+  },
+  "homepage": "https://github.com/shahaadesh5/Edkent-dashboard-react#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}
