@@ -15,7 +15,7 @@ function App() {
       <div className="page-adjust">
         <Sidenav />
         <Switch>
-          <Route exact="/" component={Dashboard} />
+          <Route exact path="/" component={Dashboard} />
         </Switch>
       </div>
       </Router>

@@ -1,6 +1,6 @@
 .dashboard-wrapper{
     overflow: hidden;
-    padding: 15px;
+    padding: 15px 15px 100px;
     background-color: #f5f6f8;
 }
 .upgrade-button{
@@ -53,11 +53,10 @@
     margin-top: 20px;
     padding: 20px;
 }
-.date-picker-wrapper{
-    padding: 10px;
-    position: absolute;
-    background-color: #fff;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    z-index: 99;
-
+.modal-75w{
+    width: 75%;
+    max-width: none!important;
+}
+.input-group-append img {
+    width: 100%;
 }

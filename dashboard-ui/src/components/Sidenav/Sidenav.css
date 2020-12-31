@@ -1,8 +1,10 @@
 .sidenav{
     border-right: 1px solid #f5f6f8;
     width: 274px;
+    min-height: 100vh;
     float: left;
     clear: both;
+    position: relative;
 }
 .sidenav ul{
     list-style: none;
@@ -24,6 +26,28 @@
     background-color: #3476ee;
     color: #fff;
 }
-/* .icon0:hover{
-    background-image: url('../images/icons/monitor-overlay.png') !important;
-} */
+.sidenav-bottom-elements{
+    position: absolute;
+    bottom: 0;
+}
+.icon0:hover{
+    background-image: url("https://raw.githubusercontent.com/shahaadesh5/Edkent-dashboard-react/main/dashboard-ui/public/images/icons/monitor-overlay.png") !important;
+}
+.icon1:hover{
+    background-image: url("https://raw.githubusercontent.com/shahaadesh5/Edkent-dashboard-react/main/dashboard-ui/public/images/icons/icon2-overlay.png") !important;
+}
+.icon2:hover{
+    background-image: url("https://raw.githubusercontent.com/shahaadesh5/Edkent-dashboard-react/main/dashboard-ui/public/images/icons/library.png") !important;
+}
+.icon3:hover{
+    background-image: url("https://raw.githubusercontent.com/shahaadesh5/Edkent-dashboard-react/main/dashboard-ui/public/images/icons/icon4-overlay.png") !important;
+}
+.icon4:hover{
+    background-image: url("https://raw.githubusercontent.com/shahaadesh5/Edkent-dashboard-react/main/dashboard-ui/public/images/icons/icon5-overlay.png") !important;
+}
+.icon5:hover{
+    background-image: url("https://raw.githubusercontent.com/shahaadesh5/Edkent-dashboard-react/main/dashboard-ui/public/images/icons/icon6-overlay.png") !important;
+}
+.icon7:hover{
+    background-image: url("https://raw.githubusercontent.com/shahaadesh5/Edkent-dashboard-react/main/dashboard-ui/public/images/icons/diamond-overlay.png") !important;
+}

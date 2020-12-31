@@ -49,6 +49,14 @@ const navItems = [
                     })
                 }
             </ul>
+            <div className="sidenav-bottom-elements">
+                <ul >
+                    <li className="sidenav-item icon7" style={{backgroundImage: "url('../images/icons/diamond.png')"}}>
+                        Menu Option 7
+                    </li>
+                </ul>
+
+            </div>
         </div>
     )
 }
