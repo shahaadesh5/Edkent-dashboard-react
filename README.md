@@ -15,6 +15,6 @@ To run this application locally:
 
 Final UI:
 
-[UI]: https://github.com/shahaadesh5/Edkent-dashboard-react/blob/main/dashboard-ui.PNG "UI implementation"
+![UI]: (https://raw.githubusercontent.com/shahaadesh5/Edkent-dashboard-react/main/dashboard-ui.PNG)
 
 NOTE: The implementation is not responsive as there was no design for it and also the calendar library does not have responsive date-picker component.
