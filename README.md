@@ -15,6 +15,6 @@ To run this application locally:
 
 Final UI:
 
-![alt text](https://raw.githubusercontent.com/shahaadesh5/idataprep-flask-angular/master/screenshots/viz1.png)
+![alt text](https://raw.githubusercontent.com/shahaadesh5/Edkent-dashboard-react/main/dashboard-ui.png)
 
 NOTE: The implementation is not responsive as there was no design for it and also the calendar library does not have responsive date-picker component.
